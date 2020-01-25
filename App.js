@@ -54,6 +54,7 @@ const HomeNavigation = createStackNavigator({
 
 
 const Navigation = createSwitchNavigator({
+  Login: Login,
   Home: HomeNavigation,
 })
 
