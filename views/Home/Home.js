@@ -61,8 +61,7 @@ export class Home extends React.Component {
                             
                         </TouchableOpacity>
                     </FooterTab>
-
-
+                    {/* #010001 */}
                     <FooterTab style={{ backgroundColor: '#010001', justifyContent: "center" }}>
                         <TouchableOpacity style={{ alignItems: "center", justifyContent: "center", }}
                             onPress={() => { this.setState({ page: 'Shop' }) }}
